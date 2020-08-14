@@ -17,7 +17,7 @@ export const Card = styled.article`
 
 export const Year = styled.div`
   align-items: center;
-  background-color: ${(props) => props.theme.yellow};
+  background-color: ${(props) => props.theme.colors.yellow};
   border-radius: 2rem;
   color: #fff;
   display: inline-flex;

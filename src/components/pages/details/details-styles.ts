@@ -75,7 +75,7 @@ export const About = styled.div`
 
 export const Release = styled.div`
   align-items: center;
-  background-color: ${(props) => props.theme.yellow};
+  background-color: ${(props) => props.theme.colors.yellow};
   border-radius: 2rem;
   color: #fff;
   display: inline-flex;
@@ -87,7 +87,7 @@ export const Release = styled.div`
 
 export const Rating = styled.div`
   align-items: center;
-  background-color: ${(props) => props.theme.yellow};
+  background-color: ${(props) => props.theme.colors.yellow};
   border-radius: 2rem;
   color: #fff;
   display: inline-flex;
